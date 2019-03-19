@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+  </head>
+  <body>
+  <script>
+    let xhr = new XMLHttpRequest()
+    xhr.open('GET','http://127.0.0.1:8887')
+// 关键是这里，server.js请求了test.html页面，test.html请求了8887端口
+    xhr.send()
+  </script>
+  </body>
+</html>
