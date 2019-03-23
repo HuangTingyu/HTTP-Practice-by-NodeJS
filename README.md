@@ -7,7 +7,7 @@ HTTP协议原理+实践（NodeJS版本演示）
 4. 缓存Cache-Control
 5. 资源验证
 6. Cookie
-7. HTTP长连接
-8. 数据协商
-9. Redirect
-10. Content-Security-Policy
+7. 数据协商
+8. Redirect
+9. Content-Security-Policy
+10. nginx基本配置和nginx缓存设置
